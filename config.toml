@@ -1,0 +1,35 @@
+baseurl = "http://blog2.snow-crash.org"
+
+# Site title
+title = "formorer"
+
+copyright = "(c) 2017 Alexander 'formorer' wirt"
+languageCode = "en-EN"
+
+metaDataFormat = "yaml"
+theme = "hyde-y"
+
+paginate = 10
+paginatePath = "page"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "Alexander Wirt"
+    email = "formorer@formorer.de"
+
+[params]
+    twitter = "formorer"
+    github = "formorer"
+    rss = true
+    sidebar = "left"
+
+    brand = "formorer"
+    topline = "a place called home"
+    ootline = "code with <i class='fa fa-heart'></i>"

@@ -1,0 +1,9 @@
+box: debian
+build:
+  steps:
+    - install-packages:
+        packages: git
+    - arjen/hugo-build:
+        version: "0.14"
+        theme: herring-cove
+        flags: --buildDrafts=true

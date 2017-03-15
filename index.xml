@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>formorer</title>
+    <link>http://blog2.snow-crash.org/index.xml</link>
+    <description>Recent content on formorer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <managingEditor>formorer@formorer.de (Alexander Wirt)</managingEditor>
+    <webMaster>formorer@formorer.de (Alexander Wirt)</webMaster>
+    <copyright>(c) 2017 Alexander &#39;formorer&#39; wirt</copyright>
+    <atom:link href="http://blog2.snow-crash.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://blog2.snow-crash.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>formorer@formorer.de (Alexander Wirt)</author>
+      <guid>http://blog2.snow-crash.org/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
+
+&lt;p&gt;asddas
+asdas&lt;/p&gt;
+
+&lt;p&gt;osdafds&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://blog2.snow-crash.org/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>formorer@formorer.de (Alexander Wirt)</author>
+      <guid>http://blog2.snow-crash.org/license/</guid>
+      <description>
+
+&lt;h1 id=&#34;license&#34;&gt;License&lt;/h1&gt;
+
+&lt;p&gt;I have no license yet&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

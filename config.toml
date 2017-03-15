@@ -1,4 +1,4 @@
-baseurl = "http://blog2.snow-crash.org"
+baseurl = "http://blog2.snow-crash.org/"
 
 # Site title
 title = "formorer"

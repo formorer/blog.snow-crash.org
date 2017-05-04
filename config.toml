@@ -7,7 +7,7 @@ copyright = "(c) 2017 Alexander 'formorer' wirt"
 languageCode = "en-EN"
 
 metaDataFormat = "yaml"
-theme = "coca-ah"
+theme = "coca-eh"
 
 paginate = 10
 paginatePath = "page"

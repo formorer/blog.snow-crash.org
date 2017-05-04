@@ -1,8 +1,5 @@
 baseurl = "http://blog2.snow-crash.org/"
 
-# Site title
-title = "formorer"
-
 copyright = "(c) 2017 Alexander 'formorer' wirt"
 languageCode = "en-EN"
 
@@ -11,25 +8,43 @@ theme = "cocoa-eh"
 
 paginate = 10
 paginatePath = "page"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Alexander Wirt"
+title = "a place called home"
+disqusshortname = ""
+pluralizelisttitles = false
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
-    code = "/:slug/"
 
-[taxonomies]
-    tag = "tags"
-    topic = "topics"
+blog = "blog/:slug/"
 
-[author]
-    name = "Alexander Wirt"
-    email = "formorer@formorer.de"
+[params] 
+dateform = "Jan 2, 2006" 
+dateformfull = "Mon Jan 2 2006 15:04:05 MST" 
+description = "Example blog" 
+copyright = "Copyright © 2015 Nishanth Shanmugham" 
+logofile = "img/logo.png" 
+faviconfile = "img/logo.png" 
+highlightjs = true 
+progressively = true 
+latestpostcount = 5 
+github = "example" 
+email = "you@example.com" 
+linkedin = "john-example-aa80ue8è" 
+twitter = "example" 
+social_banner = "img/banner.png" 
+posts_navigation = true
 
-[params]
-    twitter = "formorer"
-    github = "formorer"
-    rss = true
-    sidebar = "left"
-
-    brand = "formorer"
-    topline = "a place called home"
-    ootline = "code with <i class='fa fa-heart'></i>"
+[params.colors]
+identifier = "#527fc1f"
+identifier_dark = "#1a3152"
+trivial = "#6a7a8b"
+foreground = "#181d2a"
+background = "#f9f9f9"
+background_dark = "#282a36"
+code = "#87a5d2"
+type = "#97d28b"
+special = "#ffcb8d"
+value = "#96c2d7"
+statement = "#ff8e91"

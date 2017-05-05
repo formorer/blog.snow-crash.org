@@ -1,49 +1,46 @@
 {{ partial "header.html" . }}
 <section class="main">
     <div class="container">
+
         <div class="content">
+
             {{ range where .Data.Pages "Title" "Home" }}
-                <div class="markdown">
+            <div class="markdown">
                 {{ .Content }}
-                </div>
-            {{ end }}
-
-            {{ if isset .Site.Params "latestpostcount" }}
-                <div class="posts">
-                {{ $nbPosts := len (where .Data.Pages "Section" "blog") }}
-                {{ if gt $nbPosts 0 }}
-                    <div class="page-heading">Latest posts</div>
-                    <ul>
+            </div>
+            {{ end }} {{ if isset .Site.Params "latestpostcount" }}
+            <div class="posts">
+                {{ $nbPosts := len (where .Data.Pages "Section" "blog") }} {{ if gt $nbPosts 0 }}
+                <div class="page-heading">Latest posts</div>
+                <ul>
                     {{ range (first .Site.Params.latestpostcount (where .Pages "Section" "blog")).GroupByDate "Jan, 2006" "desc" }}
-                        <li class="groupby">{{ .Key }}</li>
-                        {{ range .Pages.ByPublishDate }}
-                            {{ partial "li.html" . }}
-                        {{ end }}
-                    {{ end }}
-                    </ul>
+                    <li class="groupby">{{ .Key }}</li>
+                    {{ range .Pages.ByPublishDate }} {{ partial "li.html" . }} {{ end }} {{ end }}
+                </ul>
 
-                    {{ if gt $nbPosts .Site.Params.latestpostcount }}
-                        <a href="./blog/" class="see-more">See more ...</a>
-                    {{ end }}
-                {{ end }}
-                </div>
+                {{ if gt $nbPosts .Site.Params.latestpostcount }}
+                <a href="./blog/" class="see-more">See more ...</a> {{ end }} {{ end }}
+            </div>
             {{ end }}
 
             <div class="best-posts">
-            {{ $nbPosts := len (where .Data.Pages "Params.best" true) }}
-            {{ if gt $nbPosts 0 }}
+                {{ $nbPosts := len (where .Data.Pages "Params.best" true) }} {{ if gt $nbPosts 0 }}
                 <div class="page-heading">Best posts</div>
                 <ul>
-                {{ range .Data.Pages.ByPublishDate }}
-                    {{ if eq .Params.best true }}
-                        {{ partial "li.html" . }}
-                    {{ end }}
-                {{ end }}
+                    {{ range .Data.Pages.ByPublishDate }} {{ if eq .Params.best true }} {{ partial "li.html" . }} {{ end }} {{ end }}
                 </ul>
-            {{ end }}
+                {{ end }}
+            </div>
+
+            <div class="tags">
+                <div class="page-heading">Categories</div>
+                <ul>
+                    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                    <li><a href="{{ " /categories/ " | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+                    {{ end }}
+                </ul>
             </div>
         </div>
     </div>
 </section>
 {{ partial "footer.html" . }}
-

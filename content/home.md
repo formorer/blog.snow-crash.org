@@ -2,6 +2,7 @@
 title = "Home"
 +++
 
-_This is the home page. It will display the blog section if there is one, and a text before._
+_“To condense fact from the vapor of nuance.”_
+<small>**Neal Stephenson - Snow Crash**</small>
 
-Hey ! Welcome to the **Cocoa Enhanced theme**. Here are some articles :
+Welcome to my little blog, here you will find stuff about Linux, OpenSource, Debian, GRML, Icinga and the other stuff I am involved in. Sometime you will even find some personal stuff. 

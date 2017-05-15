@@ -3,10 +3,13 @@ date = "2015-08-22"
 title = "About"
 +++
 
-_With this theme, it is possible to add small sections that only contains one page like this. It will automatically appears in the header, at the end._
+I am a proud father of the daughters and do work as a (OpenSource) consultant for [credativ](https://www.credativ.de). In my free time I have a bunch of passions:
 
-Along with [Ford Prefect](https://en.wikipedia.org/wiki/Ford_Prefect_\(character\)), Dent barely escapes the Earth's destruction as it is demolished to make way for a *hyperspace bypass*. Arthur spends the next several years, still wearing his dressing gown, helplessly launched from crisis to crisis while trying to straighten out his lifestyle.  
- 
-> He rather enjoys tea, but seems to have trouble obtaining it in the far reaches of the galaxy.  
- 
-In time, he learns how to fly and carves a niche for himself as a sandwich-maker.
+* OpenSource
+* Debian
+* Role Playing Games (yeah, the Pen and Paper ones)
+* Books
+* Science Fiction
+* Cyberpunk
+* Fantasy
+

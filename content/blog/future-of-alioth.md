@@ -1,9 +1,9 @@
 ---
-author: "Alexis Tacnet"
-date: 2015-09-28
-title: Example article
+author: "Alexander wirt"
+date: 2017-05-15
+title: About the future of alioth
 best: true
-tags: ["foo", "bar"]
+tags: ["alioth", "debian"]
 categories: ["debian"]
 ---
 

@@ -1,36 +1,26 @@
 ---
 author: "Alexander wirt"
 date: 2017-05-15
-title: About the future of alioth
+title: Upcoming Alioth Sprint
 best: true
 tags: ["alioth", "debian"]
 categories: ["debian"]
 ---
 
-## Text
+As some of you already know we do need a replacement for [alioth.debian.org](https://alioth.debian.org). It is based on wheezy and a heavily modified version of 
+[Fusionforge](https://fusionforge.org/). Unfortunately I am the last admin left for alioth and I am not really familiar with fusionforge. After some chatting with a bunch of people we decided that we should replace alioth with a stripped down version of new services. 
 
-**This is some text.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium at ipsum eu pharetra. Proin ac ante et leo ultrices bibendum. Vivamus id ipsum fermentum, aliquam nunc mollis, tempus sapien. Praesent scelerisque cursus eros vitae pretium. Etiam sit amet ligula in leo euismod malesuada. Proin eleifend pulvinar ipsum, eu lobortis ante pharetra eu. Vivamus sem elit, venenatis eget ornare nec, ullamcorper non tellus. Duis quis massa finibus, euismod erat quis, fermentum nunc. Maecenas euismod felis sit amet convallis placerat.
+We want to start with the basic things, git and and identity provider.
+For git there are two candidates: [gitlab](https://gitlab.org) and [pagure](https://pagure.io). Gitlab is really nice, but has a big problem: it is Opencore, which
+that it is not entirely opensource. I don't think we should use software licensed under such a model for one of our core services.
+That brings us to the last candidate: pagure.
 
-## Images
+Pagure is a nice project based on gitlab, it is developed by the fedora project which use it
+for all their repos.
 
-**This theme includes a tranparent way to defer images. This can be enabled/disabled in the `config.toml`.**
+Pagure isn't packaged for Debian yet, but that is work in progress ([#829046](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=829046)). If you can lend a helping hand 
+to the packager, please do so. 
 
-![image](/img/startup.jpg)
+To get things started we will have a [Alioth Sprint](https://wiki.debian.org/Sprints/2017/Alioth) from 18th to 20th August 2017 in Hamburg, Germany. If you want to join us, add yourself to the [wikipage](https://wiki.debian.org/Sprints/2017/Alioth).
 
-**You will just have to do two images : the normal, and a low resolution one.**
-
-## Code
-
-**This is some code, this theme includes language highlight, optionnal as well.**
-
-```
-.dark {
-  color: #333333 !important;
-}
-.light {
-  color: #666666 !important;
-}
-.accent {
-  color: #428bca !important;
-}
-```
+For further discussions I created a mailinglist on [alioth](https://lists.alioth.debian.org/mailman/listinfo/alioth-staff-replacement). Please subscribe if you are interested in that topic.

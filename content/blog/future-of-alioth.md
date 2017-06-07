@@ -1,6 +1,6 @@
 ---
 author: "Alexander wirt"
-date: 2017-06-06
+date: 2017-06-07
 title: Upcoming Alioth Sprint
 best: true
 tags: ["alioth", "debian"]

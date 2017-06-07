@@ -3,6 +3,7 @@ date: 2017-06-07T21:57:40+02:00
 tags:
   - debian 
 title: New blog 
+categories: ["debian"]
 ---
 
 After a long time I decided to move my blog again to

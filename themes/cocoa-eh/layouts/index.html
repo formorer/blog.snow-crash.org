@@ -36,7 +36,7 @@
                 <div class="page-heading">Categories</div>
                 <ul>
                     {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                    <li><a href="{{ " /categories/ " | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+                    <li><a href="{{ " /categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
                     {{ end }}
                 </ul>
             </div>

@@ -15,7 +15,7 @@ For git there are two candidates: [gitlab](https://gitlab.org) and [pagure](http
 that it is not entirely opensource. I don't think we should use software licensed under such a model for one of our core services.
 That brings us to the last candidate: pagure.
 
-Pagure is a nice project based on gitlab, it is developed by the fedora project which use it
+Pagure is a nice project based on gitolite, it is developed by the fedora project which use it
 for all their repos.
 
 Pagure isn't packaged for Debian yet, but that is work in progress ([#829046](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=829046)). If you can lend a helping hand 

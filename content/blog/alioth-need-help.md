@@ -6,7 +6,7 @@ best: true
 tags: ["alioth", "debian"]
 ---
 
-It may look that the decision for pagure as alioth replacement is already finalized, but that's not really true. I got a lot of feedback and tips in the last weeks, those made postpone my decision. Several alternative systems were recommend to me, here are a few examples:
+It may look that the decision for pagure as alioth replacement is already finalized, but that's not really true. I got a lot of feedback and tips in the last weeks, those made postpone my decision. Several alternative systems were recommended to me, here are a few examples:
 
 * [gitlab](https://gitlab.org)
 * [kallithea](http://kallithea.readthedocs.io/en/latest/)
@@ -15,15 +15,15 @@ It may look that the decision for pagure as alioth replacement is already finali
 
 and probably several others. I won't be able to evaluate all of those systems in
 advance of our [sprint](https://wiki.debian.org/Sprints/2017/Alioth). 
-That's where you come in: if you are familiar with them.one of those systems or want
-to get familiar with. Please join us on our [mailinglist](https://lists.alioth.debian.org/mailman/listinfo/alioth-staff-replacement)
+That's where you come in:  if you are familiar with one of those systems, or want to get familiar with them,
+join us on our [mailing list](https://lists.alioth.debian.org/mailman/listinfo/alioth-staff-replacement)
 and create a wiki page below <https://wiki.debian.org/Alioth/GitNext> with a review of
 your system. 
 
 What do we need to know? 
 
-* Featureset compared to current alioth
-* Featureset compared to a popular system like github
+* Feature set compared to current alioth
+* Feature set compared to a popular system like github
 * Some implementation designs
 * Some information about scaling (expect something like 15.000 > 25.000 repos)
 * Support for other version control systems

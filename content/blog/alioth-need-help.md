@@ -12,8 +12,12 @@ It may look that the decision for pagure as alioth replacement is already finali
 * [kallithea](http://kallithea.readthedocs.io/en/latest/)
 * [gogs](http://gogs.io)
 * [gitblit](http://gitblit.com)
-
-and probably several others. I won't be able to evaluate all of those systems in advance of our [sprint](https://wiki.debian.org/Sprints/2017/Alioth). Thats where you come in: if you are familiar with one of those systems or want to get familiar with. Please join us in our [mailinglist](https://lists.alioth.debian.org/mailman/listinfo/alioth-staff-replacement) and create a wiki page below https://wiki.debian.org/Alioth/GitNext with a review of your system. 
+and probably several others. I won't be able to evaluate all of those systems in
+advance of our [sprint](https://wiki.debian.org/Sprints/2017/Alioth). 
+Thats where you come in: if you are familiar with one of those systems or want
+to get familiar with. Please join us on our [mailinglist](https://lists.alioth.debian.org/mailman/listinfo/alioth-staff-replacement)
+and create a wiki page below <https://wiki.debian.org/Alioth/GitNext> with a review of
+your system. 
 
 What do we need to know? 
 

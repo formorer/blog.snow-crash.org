@@ -10,7 +10,7 @@ categories: ["debian"]
  With the release of stretch we are pleased to open the doors
 for stretch-backports and jessie-backports-sloppy. \o/
 
-As usual with a new releasewe will change a few things for 
+As usual with a new release we will change a few things for 
 the backports service. 
 
 ## What to upload where ##

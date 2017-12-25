@@ -38,7 +38,7 @@ groups to have a '-team' suffix to their name.
 Groups can be created using the same self-service portal https://signup.salsa.debian.org.
 For larger, already-established teams it is also possible to ask us to create the group with a
 name not conforming to the normal team namespace. Examples are teams like *debian-qa*.
-Please create an issue in the support[1] project.
+Please create an issue in the [support](https://salsa.debian.org/salsa/support) project.
 
 Collab-maint
 ------------
@@ -76,8 +76,8 @@ We want to run this beta at least for four weeks. If everything goes well we int
 Documentation
 -------------
 
-Documentation of the service will happen in the Debian Wiki [2]. Please feel free to enhance the documentation.
-See also the upstream GitLab docs [3].
+Documentation of the service will happen in the [Debian Wiki](https://wiki.debian.org/Salsa/Doc). Please feel free to enhance the documentation.
+See also the upstream [GitLab docs](https://docs.gitlab.com/ee/README.html).
 
 Getting help
 ------------
@@ -97,6 +97,3 @@ Request for help
 If you want to take part in salsa administration please get in touch with us. We want to have at least two more administrators
 for the Gitlab instance.
 
-- [1] https://salsa.debian.org/salsa/support
-- [2] https://wiki.debian.org/Salsa/Doc
-- [3] https://docs.gitlab.com/ee/README.html

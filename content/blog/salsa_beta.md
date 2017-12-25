@@ -97,6 +97,6 @@ Request for help
 If you want to take part in salsa administration please get in touch with us. We want to have at least two more administrators
 for the Gitlab instance.
 
-[1] https://salsa.debian.org/salsa/support
-[2] https://wiki.debian.org/Salsa/Doc
-[3] https://docs.gitlab.com/ee/README.html
+- [1] https://salsa.debian.org/salsa/support
+- [2] https://wiki.debian.org/Salsa/Doc
+- [3] https://docs.gitlab.com/ee/README.html

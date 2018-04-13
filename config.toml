@@ -1,4 +1,4 @@
-baseurl = "/blog.snow-crash.org/"
+baseurl = "/"
 
 copyright = "(c) 2017 Alexander 'formorer' wirt"
 languageCode = "en-EN"

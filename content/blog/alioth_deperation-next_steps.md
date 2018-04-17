@@ -19,9 +19,8 @@ moved over too and will continue to exist under the old URL.
 
 ## decommissioning timeline
 
-01.05.18:  DISABLE registration of new users on alioth. Until an improved SSO ([GSOC Project](https://wiki.debian.org/SummerOfCode2018/Projects#SummerOfCode2018.2FProjects.2FNewDebianSSO.Successor_of_the_Debian_SSO_Service)) is ready, new user registrations needed for SSO services will be handled manually. More details on this will follow in a seperate announcement.<br/><br/>
-
-10.-13.05.18: darcs, bzr and mercurial repositories will be exported as tarballs and made available readonly from a new archive host, details on that will follow.<br/>
-17.-20.05.18: During the Mini-DebConf Hamburg any existing cron jobs will be turned off, websites still on alioth will be disabled.<br/>
-31.05.18: All remaining repositories (cvs, svn and git) will be archived similar to the ones above.
+**2018-05-01**  DISABLE registration of new users on alioth. Until an improved SSO ([GSOC Project](https://wiki.debian.org/SummerOfCode2018/Projects#SummerOfCode2018.2FProjects.2FNewDebianSSO.Successor_of_the_Debian_SSO_Service)) is ready, new user registrations needed for SSO services will be handled manually. More details on this will follow in a seperate announcement.<br/>
+**2018-05-10 - 2018-05-13** darcs, bzr and mercurial repositories will be exported as tarballs and made available readonly from a new archive host, details on that will follow.<br/>
+**2018-05-17 - 2018-05-18** During the Mini-DebConf Hamburg any existing cron jobs will be turned off, websites still on alioth will be disabled.<br/>
+**2018-05-31** All remaining repositories (cvs, svn and git) will be archived similar to the ones above.
           The host moszumanska, the home of alioth, will go offline!
